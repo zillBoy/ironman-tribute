@@ -33,30 +33,85 @@ body {
 
 #secondary-image-div {
     background-color: rgb(0, 0, 0);
-    
 }
 
 #secondary-image {
     display: block;
     min-width: 300px;
     max-width: 100%;
-    opacity: 0.3;
+    opacity: 0.2;
+    z-index: 1;
 }
 
+#tribute-info {
+    color: #fff;
+    font-family: 'Montserrat';
+    text-align: left;
+    max-width: 500px;
+    position: absolute;
+    margin-top: -30%;
+    z-index: 2;
+    margin-left: 2em;
+}
+
+#tribute-header {
+    font-size: 2em;
+}
+
+#tribute-info p {
+    font-size: 1.2em;
+}
+
+#newcontent {
+    
+}
+
+
 @media only screen and (max-width: 600px) {
-  #title {
+    #title {
       font-size: 24px;
-  }
+    }
+
+    #tribute-header {
+      font-size: 20px;
+    }
+
+    #tribute-info {
+        margin-top: -55%;
+        margin-left: 0.5em;
+    }
+
+    #tribute-info p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #title {
+        top: 25%;
+    }
+
+    #tribute-info {
+        margin-top: -50%;
+    }
 }
 
 @media only screen and (min-width: 800px) {
-  #title {
-      top: 25%;
-  }
+    #title {
+        top: 25%;
+    }
+
+    #tribute-info {
+        margin-top: -50%;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
-  #title {
-      top: 40%;
-  }
+    #title {
+        top: 40%;
+    }
+
+    #tribute-info {
+        margin-top: -50%;
+    }
 }
