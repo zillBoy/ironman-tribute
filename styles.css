@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image-caption {
+    background-color: black;
+    color: black;
+    user-select: none;
+}
+
+#main {
+    text-align: center;
+}
+
+#title {
+    font-family: 'Montserrat';
+    font-size: 4em;
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#image {
+    display: block;
+    min-width: 300px;
+    max-width: 100%;
+}
+
+#secondary-image-div {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#secondary-image {
+    display: block;
+    min-width: 300px;
+    max-width: 100%;
+    opacity: 0.3;
+}
+
+@media only screen and (max-width: 600px) {
+  #title {
+      font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #title {
+      top: 25%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #title {
+      top: 40%;
+  }
+}
