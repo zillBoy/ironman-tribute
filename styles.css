@@ -88,8 +88,6 @@ body {
     letter-spacing: 1.5px;
 }
 
-/* #D84036 - light reddish - font color */
-
 #grid-right-subheader {
     color: #fff;
     font-weight: bold;
@@ -108,6 +106,19 @@ body {
     position: relative;
     margin-top: 4em;
 }
+
+/* LEFT */
+
+#grid-left-header {
+    font-size: 11vw;
+    letter-spacing: 20px;
+    position: absolute;
+    width: 100%;
+    margin-top: -4%;
+    text-align: center;
+    color: #D84036;
+}
+
 
 @media only screen and (max-width: 600px) {
     #title {
@@ -152,6 +163,15 @@ body {
         margin: 0;
         left: 38%;
     }
+
+    /* LEFT */
+
+    #grid-left-header {
+        margin-top: 2%;
+        text-align: center;
+        margin-left: 1%;
+    }
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -197,6 +217,15 @@ body {
         margin: 0;
         left: 38%;
     }
+
+    /* LEFT */
+
+    #grid-left-header {
+        margin-top: 2%;
+        text-align: center;
+        margin-left: 1%;
+    }
+
 }
 
 @media only screen and (min-width: 700px) {
@@ -292,5 +321,10 @@ body {
 
     #tribute-info {
         margin-top: -50%;
+    }
+
+    #grid-right-content-div {
+        position: relative;
+        left: -14%;
     }
 }
