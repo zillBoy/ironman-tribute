@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Montserrat';
     user-select: none;
+    background-color: #000;
 }
 
 .image-caption {
@@ -65,7 +66,13 @@ body {
 }
 
 #newcontent {
-    
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 10px 0px;
+    position: relative;
+    width: 100%;
+    top: 0;
 }
 
 #grid-content-div {
@@ -154,6 +161,10 @@ body {
 
     margin-top: -3.1em;
     left: -15%;
+}
+
+#ironman-collage-image {
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -345,7 +356,6 @@ body {
         position: relative;
         margin: 0;
         left: -1.5em;
-
     }
 
     .grid-right-para {
