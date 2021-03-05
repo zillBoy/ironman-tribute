@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
+    user-select: none;
 }
 
 .image-caption {
@@ -71,14 +72,6 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, 700px);
     background-color: #D72C20;
-}
-
-#grid-left-content-div {
-
-}
-
-#grid-right-content-div {
-
 }
 
 #grid-right-header {
@@ -153,9 +146,15 @@ body {
 }
 
 #grid-circle {
+    position: absolute;
+    width: 52em;
+    height: 52em;
+    background-color: #BC2518;
+    border-radius: 50%;
 
+    margin-top: -3.1em;
+    left: -15%;
 }
-
 
 @media only screen and (max-width: 600px) {
     #title {
@@ -203,12 +202,20 @@ body {
         margin-top: 20px;
     }
 
+    /* IMAGE */
+
+    #grid-ironman-image {
+        margin-left: -35%;
+    }
+
     /* LEFT */
 
     #grid-left-header {
         margin-top: 2%;
         text-align: center;
-        margin-left: 1%;
+        width: 40%;
+        position: absolute;
+        right: 40px;
     }
 
     #grid-left-header-2 {
@@ -222,6 +229,17 @@ body {
         position: relative;
         top: -110px;
         margin-left: 80px;
+    }
+
+    /* CIRCLE */
+
+    #grid-circle {
+        
+        width: 22em;
+        height: 22em;
+
+        margin-top: -4.5em;
+        left: 15%;
     }
 
 }
@@ -269,6 +287,7 @@ body {
         position: relative;
         margin: 0;
         left: 38%;
+        margin-top: 20px;
     }
 
     /* LEFT */
@@ -334,6 +353,7 @@ body {
         position: relative;
         margin: 0;
         left: 9em;
+        margin-top: 20px;
     }
 
     /* LEFT */
@@ -380,7 +400,7 @@ body {
         position: relative;
         margin: 0;
         left: 20em;
-        margin-top: 4em;
+        margin-top: 20px;
     }
 
     /* LEFT */
