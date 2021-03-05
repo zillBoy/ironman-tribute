@@ -113,7 +113,7 @@ body {
     font-size: 11vw;
     letter-spacing: 20px;
     position: absolute;
-    width: 100%;
+    width: 99%;
     margin-top: -4%;
     text-align: center;
     color: #D84036;
@@ -221,7 +221,7 @@ body {
     /* LEFT */
 
     #grid-left-header {
-        margin-top: 2%;
+        margin-top: -2%;
         text-align: center;
         margin-left: 1%;
     }
@@ -231,16 +231,26 @@ body {
 @media only screen and (min-width: 700px) {
     #title {
         top: 25%;
+        font-size: 6vw;
     }
 
     #tribute-info {
         margin-top: -50%;
+        margin-left: 5%;
+    }
+
+    #tribute-header {
+      font-size: 2.8vw;
+    }
+
+    #tribute-info p {
+        font-size: 2.2vw;
     }
 
     /* GRID */
 
     #grid-content-div {
-        
+           
     }
 
     /* GRID RIGHT */
@@ -272,6 +282,14 @@ body {
         margin: 0;
         left: 9em;
     }
+
+    /* LEFT */
+
+    #grid-left-header {
+        margin-top: 2%;
+        text-align: center;
+        margin-left: 1%;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -295,8 +313,7 @@ body {
 
     #grid-right-header {
         position: relative;
-        left: 1em;
-        
+        left: 1em;        
     }
 
     #grid-right-subheader {
@@ -312,19 +329,39 @@ body {
         left: 20em;
         margin-top: 4em;
     }
+
+    /* LEFT */
+
+    #grid-left-header {
+        margin-top: -2%;
+        text-align: center;
+        margin-left: 1%;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
     #title {
         top: 40%;
+        font-size: 8vw;
     }
 
     #tribute-info {
         margin-top: -50%;
+        margin-left: 5%;
+    }
+
+    #tribute-header {
+      font-size: 2vw;
+    }
+
+    #tribute-info p {
+        font-size: 1.2vw;
     }
 
     #grid-right-content-div {
         position: relative;
         left: -14%;
     }
+
+    
 }
